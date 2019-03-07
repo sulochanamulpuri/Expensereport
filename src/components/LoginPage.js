@@ -5,7 +5,7 @@ import { startLogin } from '../actions/auth';
 export const LoginPage = ({ startLogin }) => (
   <div className="box-layout">
     <div className="box-layout__box">
-      <h1 className="box-layout__title">Expense Reports App</h1>
+      <h1 className="box-layout__title">RiskGenius Expense Reports App </h1>
       <p>Get Your Expenses in Control</p>
       <button onClick={startLogin}>Login</button>
     </div>
